@@ -149,6 +149,7 @@
     <Compile Include="Assets\Scripts\BallScript.cs" />
     <Compile Include="Assets\Scripts\CloudScript.cs" />
     <None Include="Assets\Orthello\Examples\0 - Simple Examples\TextSprites\lorem.txt" />
+    <None Include="Assets\TextureAtlas\grass.xml" />
     <None Include="Assets\Orthello\Examples\0 - Simple Examples\TextSprites\Atlases\russian.txt" />
     <None Include="Assets\TextureAtlas\cloud.xml" />
     <None Include="Assets\Orthello\Examples\4 - Follow Target View\-orthello-config.xml" />
