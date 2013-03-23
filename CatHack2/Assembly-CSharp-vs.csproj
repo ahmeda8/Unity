@@ -148,6 +148,7 @@
     <Compile Include="Assets\Orthello\Standard Assets\OT\_Base\OTTouch.cs" />
     <Compile Include="Assets\Scripts\BallScript.cs" />
     <Compile Include="Assets\Scripts\CloudScript.cs" />
+    <Compile Include="Assets\Scripts\springScript.cs" />
     <None Include="Assets\Orthello\Examples\0 - Simple Examples\TextSprites\lorem.txt" />
     <None Include="Assets\TextureAtlas\grass.xml" />
     <None Include="Assets\Orthello\Examples\0 - Simple Examples\TextSprites\Atlases\russian.txt" />

@@ -17,7 +17,7 @@
                 <key>sourceSize</key>
                 <string>{460,392}</string>
             </dict>
-            <key>grass_10.png</key>
+            <key>grass_2.png</key>
             <dict>
                 <key>frame</key>
                 <string>{{462,1},{460,392}}</string>
@@ -30,7 +30,7 @@
                 <key>sourceSize</key>
                 <string>{460,392}</string>
             </dict>
-            <key>grass_2.png</key>
+            <key>grass_3.png</key>
             <dict>
                 <key>frame</key>
                 <string>{{1,394},{460,392}}</string>
@@ -43,88 +43,10 @@
                 <key>sourceSize</key>
                 <string>{460,392}</string>
             </dict>
-            <key>grass_3.png</key>
-            <dict>
-                <key>frame</key>
-                <string>{{462,394},{460,392}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{460,392}}</string>
-                <key>sourceSize</key>
-                <string>{460,392}</string>
-            </dict>
             <key>grass_4.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1,787},{460,392}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{460,392}}</string>
-                <key>sourceSize</key>
-                <string>{460,392}</string>
-            </dict>
-            <key>grass_5.png</key>
-            <dict>
-                <key>frame</key>
-                <string>{{462,787},{460,392}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{460,392}}</string>
-                <key>sourceSize</key>
-                <string>{460,392}</string>
-            </dict>
-            <key>grass_6.png</key>
-            <dict>
-                <key>frame</key>
-                <string>{{1,1},{460,392}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{460,392}}</string>
-                <key>sourceSize</key>
-                <string>{460,392}</string>
-            </dict>
-            <key>grass_7.png</key>
-            <dict>
-                <key>frame</key>
-                <string>{{1,1180},{460,392}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{460,392}}</string>
-                <key>sourceSize</key>
-                <string>{460,392}</string>
-            </dict>
-            <key>grass_8.png</key>
-            <dict>
-                <key>frame</key>
-                <string>{{462,1180},{460,392}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{460,392}}</string>
-                <key>sourceSize</key>
-                <string>{460,392}</string>
-            </dict>
-            <key>grass_9.png</key>
-            <dict>
-                <key>frame</key>
-                <string>{{1,1573},{460,392}}</string>
+                <string>{{462,394},{460,392}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -142,9 +64,9 @@
             <key>realTextureFileName</key>
             <string>grass.png</string>
             <key>size</key>
-            <string>{1024,2048}</string>
+            <string>{1024,1024}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:f99413d28158ee2d58edd4e3fe9a018a$</string>
+            <string>$TexturePacker:SmartUpdate:1426b86e39217f9eb0732e64b7cd9241$</string>
             <key>textureFileName</key>
             <string>grass.png</string>
         </dict>
