@@ -39,8 +39,8 @@ public class CloudScript : MonoBehaviour {
 		
 		if(Input.GetKeyDown(KeyCode.B))
 		{
-			ListOfBisc1.AddFirst(Instantiate(biscPrefab1,new Vector3(transform.position.x,transform.position.y-0.5f,transform.position.z),Quaternion.identity));
-			KillBiscuit();
+			InstanciateDrops(2);
+			//KillBiscuit();
 		}
 		
 		if(Input.GetKeyDown(KeyCode.N))
@@ -63,5 +63,13 @@ public class CloudScript : MonoBehaviour {
 			Destroy(del);
 			ListOfBisc1.RemoveLast();
 		}
+	}
+	
+	void InstanciateDrops(int count)
+	{
+		int r = Random.Range(2,4);
+		float diff = 2 / r;
+		for(int i =0; i<count;i++)
+			ListOfBisc1.AddFirst(Instantiate(biscPrefab1,new Vector3(transform.position.x,transform.position.y-diff,transform.position.z),Quaternion.identity));
 	}
 }
