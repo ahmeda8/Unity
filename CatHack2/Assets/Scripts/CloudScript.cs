@@ -38,9 +38,26 @@ public class CloudScript : MonoBehaviour {
 		}
 		
 		if(Input.GetKeyDown(KeyCode.B))
-		 ListOfBisc1.AddFirst(Instantiate(biscPrefab1,new Vector3(transform.position.x,transform.position.y-0.5f,transform.position.z),Quaternion.identity));
+		{
+			ListOfBisc1.AddFirst(Instantiate(biscPrefab1,new Vector3(transform.position.x,transform.position.y-0.5f,transform.position.z),Quaternion.identity));
+			KillBiscuit();
+		}
 		
 		if(Input.GetKeyDown(KeyCode.N))
+		{
+			kill();
+		}
+	}
+	
+	IEnumerator KillBiscuit()
+	{
+		yield return new WaitForSeconds(5);
+		kill();
+	}
+	
+	 void kill()
+	{
+		if(ListOfBisc1.Count > 0)
 		{
 			var del = (UnityEngine.Object)ListOfBisc1.Last.Value;
 			Destroy(del);
