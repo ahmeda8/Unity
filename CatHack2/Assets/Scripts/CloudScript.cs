@@ -2,10 +2,12 @@ using UnityEngine;
 using System.Collections;
 
 public class CloudScript : MonoBehaviour {
-
+	
+	public GameObject biscPrefab1;
 	// Use this for initialization
 	void Start () {
-	
+		//GameObject friskies =  GameObject.FindGameObjectWithTag("Respawn");
+		
 	}
 	
 	private float Xmov =0.01f;
@@ -31,5 +33,8 @@ public class CloudScript : MonoBehaviour {
 		{
 			transform.position = new Vector3(transform.position.x-Xmov,transform.position.y,transform.position.z);
 		}
+		
+		if(Input.GetKeyDown(KeyCode.B))
+			Instantiate(biscPrefab1,new Vector3(transform.position.x,transform.position.y-0.5f,transform.position.z),Quaternion.identity);
 	}
 }
