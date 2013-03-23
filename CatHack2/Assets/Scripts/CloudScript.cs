@@ -7,7 +7,7 @@ public class CloudScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		//GameObject friskies =  GameObject.FindGameObjectWithTag("Respawn");
-		
+		//Instantiate(ranaPre,new Vector3(transform.position.x,transform.position.y-0.5f,transform.position.z),Quaternion.identity);
 	}
 	
 	private float Xmov =0.01f;
