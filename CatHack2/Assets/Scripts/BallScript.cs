@@ -22,7 +22,7 @@ public class BallScript : MonoBehaviour {
 		}
 		if(Input.GetKeyDown(KeyCode.W))
 		{
-			rigidbody.AddForce(new Vector3(0f,120f,0));
+			rigidbody.AddForce(new Vector3(0f,320f,0));
 		}
 		
 		if(transform.position.x > 9 || transform.position.x < -9) //if the ball goes out of creen delete it

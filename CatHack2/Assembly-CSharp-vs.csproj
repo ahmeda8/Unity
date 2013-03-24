@@ -158,14 +158,15 @@
     <Compile Include="Assets\iTween\Sample\SampleInfo.cs" />
     <None Include="Assets\Orthello\Examples\0 - Simple Examples\TextSprites\lorem.txt" />
     <None Include="Assets\Orthello\Examples\0 - Simple Examples\TextSprites\Atlases\russian.txt" />
-    <None Include="Assets\TextureAtlas\grassback1.xml" />
     <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
     <None Include="Assets\TextureAtlas\cloud.xml" />
     <None Include="Assets\Orthello\Examples\4 - Follow Target View\-orthello-config.xml" />
     <None Include="Assets\TextureAtlas\ball.xml" />
     <None Include="Assets\Orthello\-Read-Me.txt" />
+    <None Include="Assets\TextureAtlas\flowers.xml" />
     <None Include="Assets\TextureAtlas\bisc1.xml" />
     <None Include="Assets\TextureAtlas\background.xml" />
+    <None Include="Assets\TextureAtlas\grasswhite.xml" />
     <None Include="Assets\Orthello\Examples\0 - Simple Examples\TextSprites\orthello-font-30.txt" />
     <None Include="Assets\Orthello\-Update-Upgrade info.txt" />
     <None Include="Assets\Orthello\Examples\0 - Simple Examples\TextSprites\Atlases\img.xml" />
@@ -177,6 +178,7 @@
     <None Include="Assets\Orthello\Examples\0 - Simple Examples\RotateTowards\-read-me.txt" />
     <None Include="Assets\Orthello\Examples\0 - Simple Examples\Persistance\-read-me.txt" />
     <None Include="Assets\Orthello\Examples\0 - Simple Examples\TextSprites\lorem-rus-utf8.txt" />
+    <None Include="Assets\TextureAtlas\grassGreen.xml" />
     <Reference Include="Assembly-UnityScript-firstpass">
       <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
     </Reference>
