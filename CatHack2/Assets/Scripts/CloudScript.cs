@@ -18,7 +18,7 @@ public class CloudScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(transform.position.x > 5)
+		if(transform.position.x > 4)
 		{
 			movDirectionRight = false;
 		}
@@ -30,23 +30,25 @@ public class CloudScript : MonoBehaviour {
 		
 		if(movDirectionRight)
 		{
-			transform.position = new Vector3(transform.position.x+Xmov,transform.position.y,transform.position.z);
+			//transform.position = new Vector3(transform.position.x+Xmov,transform.position.y,transform.position.z);
+			iTween.MoveTo(gameObject,iTween.Hash("x",4.1,"time",15,"easetype","linear"));
 		}
 		else
 		{
-			transform.position = new Vector3(transform.position.x-Xmov,transform.position.y,transform.position.z);
+			//transform.position = new Vector3(transform.position.x-Xmov,transform.position.y,transform.position.z);
+			iTween.MoveTo(gameObject,iTween.Hash("x",-6.1,"time",15,"easetype","linear"));
 		}
 		
 		if(Input.GetKeyDown(KeyCode.B))
 		{
-			InstanciateDrops(2);
+			InstanciateDrops(3);
 			//KillBiscuit();
 		}
 		
 		if(Input.GetKeyDown(KeyCode.N))
 		{
 			kill(); 
-			Debug.Log(Application.levelCount);
+			//Debug.Log(Application.levelCount);
 			
 		}
 	}
@@ -69,9 +71,16 @@ public class CloudScript : MonoBehaviour {
 	
 	void InstanciateDrops(int count)
 	{
-		int r = Random.Range(2,4);
-		float diff = 2 / r;
+		int min = 0-count/2;
+		int max = 0+count/2;
+		int r = 0;
+		//Debug.Log(r);
+		//float diff = 3 / r;
+		int xDiff = -1;
 		for(int i =0; i<count;i++)
-			ListOfBisc1.AddFirst(Instantiate(biscPrefab1,new Vector3(transform.position.x,transform.position.y-diff,transform.position.z),Quaternion.identity));
+		{
+			r = Random.Range(min,max);
+			ListOfBisc1.AddFirst(Instantiate(biscPrefab1,new Vector3(transform.position.x+min+i,transform.position.y+r,transform.position.z),Quaternion.identity));
+		}
 	}
 }

@@ -4,7 +4,7 @@
     <dict>
         <key>frames</key>
         <dict>
-            <key>DAY_BACKGROUND.jpg</key>
+            <key>NEW_DAY_BACKGROUND.jpg</key>
             <dict>
                 <key>frame</key>
                 <string>{{1,1},{1024,768}}</string>
@@ -27,7 +27,7 @@
             <key>size</key>
             <string>{2048,1024}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:7cbfd794145b534c07bb38662dc9ae3c$</string>
+            <string>$TexturePacker:SmartUpdate:29e66a3e983da0a59cac9faeb84a77ae$</string>
             <key>textureFileName</key>
             <string>background.png</string>
         </dict>
