@@ -19,7 +19,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_CLOTH;ENABLE_MOVIES;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;ENABLE_DUCK_TYPING;UNITY_4_1_0;UNITY_4_1;ENABLE_PROFILER;UNITY_EDITOR</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_STANDALONE;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_CLOTH;ENABLE_MOVIES;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;ENABLE_DUCK_TYPING;UNITY_4_0_0;UNITY_4_0;UNITY_STANDALONE_OSX;ENABLE_PROFILER;UNITY_EDITOR</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -38,10 +38,10 @@
     <Reference Include="System.XML" />
     <Reference Include="System.Core" />
     <Reference Include="UnityEngine">
-      <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -146,13 +146,24 @@
     <Compile Include="Assets\Orthello\Standard Assets\OT\_Base\OTSounds.cs" />
     <Compile Include="Assets\Orthello\Standard Assets\OT\_Base\OTTimeCycle.cs" />
     <Compile Include="Assets\Orthello\Standard Assets\OT\_Base\OTTouch.cs" />
+    <Compile Include="Assets\RagePixel\Code\IRagePixel.cs" />
+    <Compile Include="Assets\RagePixel\Code\RagePixelAnimation.cs" />
+    <Compile Include="Assets\RagePixel\Code\RagePixelBitmap.cs" />
+    <Compile Include="Assets\RagePixel\Code\RagePixelCamera.cs" />
+    <Compile Include="Assets\RagePixel\Code\RagePixelCell.cs" />
+    <Compile Include="Assets\RagePixel\Code\RagePixelRow.cs" />
+    <Compile Include="Assets\RagePixel\Code\RagePixelSettings.cs" />
+    <Compile Include="Assets\RagePixel\Code\RagePixelSprite.cs" />
+    <Compile Include="Assets\RagePixel\Code\RagePixelSpriteSheet.cs" />
     <Compile Include="Assets\Scripts\BackgroundScript.cs" />
     <Compile Include="Assets\Scripts\BallScript.cs" />
     <Compile Include="Assets\Scripts\Bisc1Script.cs" />
     <Compile Include="Assets\Scripts\BtnsScript.cs" />
     <Compile Include="Assets\Scripts\CloudScript.cs" />
+    <Compile Include="Assets\Scripts\FlowerScript.cs" />
     <Compile Include="Assets\Scripts\iTween.cs" />
     <Compile Include="Assets\Scripts\springScript.cs" />
+    <Compile Include="Assets\grassAnimation.cs" />
     <Compile Include="Assets\iTween\Sample\MoveSample.cs" />
     <Compile Include="Assets\iTween\Sample\RotateSample.cs" />
     <Compile Include="Assets\iTween\Sample\SampleInfo.cs" />
@@ -160,12 +171,15 @@
     <None Include="Assets\Orthello\Examples\0 - Simple Examples\TextSprites\Atlases\russian.txt" />
     <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
     <None Include="Assets\TextureAtlas\cloud.xml" />
+    <None Include="Assets\RagePixel\Code\RagePixelBasic.shader" />
     <None Include="Assets\Orthello\Examples\4 - Follow Target View\-orthello-config.xml" />
     <None Include="Assets\TextureAtlas\ball.xml" />
     <None Include="Assets\Orthello\-Read-Me.txt" />
     <None Include="Assets\TextureAtlas\flowers.xml" />
+    <None Include="Assets\TextureAtlas\flower.xml" />
     <None Include="Assets\TextureAtlas\bisc1.xml" />
     <None Include="Assets\TextureAtlas\background.xml" />
+    <None Include="Assets\RagePixel\Code\RagePixelBasicFlash.shader" />
     <None Include="Assets\TextureAtlas\grasswhite.xml" />
     <None Include="Assets\Orthello\Examples\0 - Simple Examples\TextSprites\orthello-font-30.txt" />
     <None Include="Assets\Orthello\-Update-Upgrade info.txt" />
@@ -179,6 +193,8 @@
     <None Include="Assets\Orthello\Examples\0 - Simple Examples\Persistance\-read-me.txt" />
     <None Include="Assets\Orthello\Examples\0 - Simple Examples\TextSprites\lorem-rus-utf8.txt" />
     <None Include="Assets\TextureAtlas\grassGreen.xml" />
+    <None Include="Assets\TextureAtlas\grassSprite.xml" />
+    <None Include="Assets\RagePixel\readme.txt" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">

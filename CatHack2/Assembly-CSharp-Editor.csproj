@@ -19,7 +19,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_CLOTH;ENABLE_MOVIES;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;ENABLE_DUCK_TYPING;UNITY_4_1_0;UNITY_4_1;ENABLE_PROFILER;UNITY_EDITOR</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_STANDALONE;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_CLOTH;ENABLE_MOVIES;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;ENABLE_DUCK_TYPING;UNITY_4_0_0;UNITY_4_0;UNITY_STANDALONE_OSX;ENABLE_PROFILER;UNITY_EDITOR</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -38,25 +38,41 @@
     <Reference Include="System.XML" />
     <Reference Include="System.Core" />
     <Reference Include="UnityEngine">
-      <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Orthello\Standard Assets\Editor\OTAssetPostProcessor.cs" />
     <Compile Include="Assets\Orthello\Standard Assets\Editor\OTPrefabBreaker.cs" />
+    <Compile Include="Assets\RagePixel\Editor\RagePixelAnimStripGUI.cs" />
+    <Compile Include="Assets\RagePixel\Editor\RagePixelCameraEditor.cs" />
+    <Compile Include="Assets\RagePixel\Editor\RagePixelColorPickerGUI.cs" />
+    <Compile Include="Assets\RagePixel\Editor\RagePixelGUIIcons.cs" />
+    <Compile Include="Assets\RagePixel\Editor\RagePixelHSBColor.cs" />
+    <Compile Include="Assets\RagePixel\Editor\RagePixelPaletteGUI.cs" />
+    <Compile Include="Assets\RagePixel\Editor\RagePixelSpriteEditor.cs" />
+    <Compile Include="Assets\RagePixel\Editor\RagePixelSpriteSheetEditorWindow.cs" />
+    <Compile Include="Assets\RagePixel\Editor\RagePixelSpriteSheetGUI.cs" />
+    <Compile Include="Assets\RagePixel\Editor\RagePixelTexel.cs" />
+    <Compile Include="Assets\RagePixel\Editor\RagePixelTexelRect.cs" />
+    <Compile Include="Assets\RagePixel\Editor\RagePixelTransformInspector.cs" />
+    <Compile Include="Assets\RagePixel\Editor\RagePixelUtil.cs" />
     <None Include="Assets\Orthello\Examples\0 - Simple Examples\TextSprites\lorem.txt" />
     <None Include="Assets\Orthello\Examples\0 - Simple Examples\TextSprites\Atlases\russian.txt" />
     <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
     <None Include="Assets\TextureAtlas\cloud.xml" />
+    <None Include="Assets\RagePixel\Code\RagePixelBasic.shader" />
     <None Include="Assets\Orthello\Examples\4 - Follow Target View\-orthello-config.xml" />
     <None Include="Assets\TextureAtlas\ball.xml" />
     <None Include="Assets\Orthello\-Read-Me.txt" />
     <None Include="Assets\TextureAtlas\flowers.xml" />
+    <None Include="Assets\TextureAtlas\flower.xml" />
     <None Include="Assets\TextureAtlas\bisc1.xml" />
     <None Include="Assets\TextureAtlas\background.xml" />
+    <None Include="Assets\RagePixel\Code\RagePixelBasicFlash.shader" />
     <None Include="Assets\TextureAtlas\grasswhite.xml" />
     <None Include="Assets\Orthello\Examples\0 - Simple Examples\TextSprites\orthello-font-30.txt" />
     <None Include="Assets\Orthello\-Update-Upgrade info.txt" />
@@ -70,8 +86,10 @@
     <None Include="Assets\Orthello\Examples\0 - Simple Examples\Persistance\-read-me.txt" />
     <None Include="Assets\Orthello\Examples\0 - Simple Examples\TextSprites\lorem-rus-utf8.txt" />
     <None Include="Assets\TextureAtlas\grassGreen.xml" />
-    <Reference Include="UnityEditor.Graphs">
-      <HintPath>C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+    <None Include="Assets\TextureAtlas\grassSprite.xml" />
+    <None Include="Assets\RagePixel\readme.txt" />
+    <Reference Include="\Applications\Unity\Unity.app\Contents\Frameworks\Managed\UnityEditor.Graphs">
+      <HintPath>\Applications\Unity\Unity.app\Contents\Frameworks\Managed\UnityEditor.Graphs.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
