@@ -1,7 +1,7 @@
 #################
 ## Eclipse
 #################
-CatHack2\Assembly-*
+CatHack2/Assembly-*
 CatHack2/Library/
 CatHack2/Temp/
 *.pydevproject
