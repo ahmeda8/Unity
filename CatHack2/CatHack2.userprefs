@@ -1,10 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CloudScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\BackgroundScript.cs">
     <Files>
       <File FileName="Assets\Scripts\CloudScript.cs" Line="49" Column="38" />
       <File FileName="Assets\Scripts\BallScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Bisc1Script.cs" Line="13" Column="3" />
+      <File FileName="Assets\Scripts\Bisc1Script.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\BackgroundScript.cs" Line="9" Column="16" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
