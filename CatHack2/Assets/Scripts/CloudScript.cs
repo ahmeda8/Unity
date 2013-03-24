@@ -45,7 +45,9 @@ public class CloudScript : MonoBehaviour {
 		
 		if(Input.GetKeyDown(KeyCode.N))
 		{
-			kill();
+			kill(); 
+			Debug.Log(Application.levelCount);
+			
 		}
 	}
 	
